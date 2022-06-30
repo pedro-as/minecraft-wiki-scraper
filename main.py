@@ -1,5 +1,4 @@
-from scraper.subpath_scraper import scrape_subpaths
-from util.paths import BLOCKS_SUBPATH
+from scraper.block_scraper import scrape
 
 if __name__ == '__main__':
-    print(scrape_subpaths(BLOCKS_SUBPATH)) # testing
+    scrape()  # testing
